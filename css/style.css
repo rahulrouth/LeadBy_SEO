@@ -14,7 +14,7 @@
   --bg-white: #fff;
   --bg-light-white: #fcfcfc;
   --bg-light-2: #f2f7fa;
-  --bg-dark-green: #dce70b;
+  --bg-dark-green: #f7f405;
   --bg-features-1: #fff6d6;
   --bg-features-2: #ebdcf9;
   --bg-features-3: #ddf5fc;
@@ -29,9 +29,9 @@
   --text-light-2: #798089;
   --text-light-3: #5e5e72;
   --text-light-4: #a0a0a0;
-  --text-dark-green: #dce70b;
-  --text-orange: #dce70b;
-  --text-yellow: #dce70b;
+  --text-dark-green: #f7f405;
+  --text-orange: #f7f405;
+  --text-yellow: #f7f405;
 
   /* Fonts */
   --primary-font: Quicksand;
@@ -968,8 +968,9 @@ input[type="submit"]:hover {
   padding-top: 100px;
   padding-bottom: 25px;
   background: url(../images/bg_footer.png) no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(16, 16, 56);
+  background-color: rgb(16 32 56 / 97%);;
   /* color: var(--text-white); */
 }
 .footer_wrapper .footer_logo img {
