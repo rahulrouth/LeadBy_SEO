@@ -858,6 +858,15 @@ input[type="submit"]:hover {
   padding: 5px;
   border-radius: 20px;
   border: 5px dashed var(--bg-dark-green);
+  width:450px;
+  
+  
+}
+
+@media (min-width:330px) and (max-width:720px) {
+  .video {
+      width: 330px;
+  }
 }
 
 /* 9 Brands */
