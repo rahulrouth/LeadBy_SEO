@@ -623,7 +623,9 @@ input[type="submit"]:hover {
   background: var(--bg-light-2);
 }
 
-
+.features_wrapper a {
+  text-decoration: none;
+}
 .features_wrapper .features_subtitle {
   font-size: 20px;
   font-weight: 700;
