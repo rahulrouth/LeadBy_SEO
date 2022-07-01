@@ -866,6 +866,8 @@ input[type="submit"]:hover {
 @media (min-width:330px) and (max-width:720px) {
   .video {
       width: 330px;
+      margin: auto;
+      display: block;
   }
 }
 
