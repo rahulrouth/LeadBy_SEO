@@ -13,8 +13,8 @@
   --bg-black: #556fff;
   --bg-white: #fff;
   --bg-light-white: #fcfcfc;
-  --bg-light-2: #f2f7fa;
-  --bg-dark-green: #f7f405;
+  --bg-light-2: rgb(20 20 128 / 78%);
+  --bg-dark-green: #ffff00;
   --bg-features-1: #fff6d6;
   --bg-features-2: #ebdcf9;
   --bg-features-3: #ddf5fc;
@@ -29,9 +29,9 @@
   --text-light-2: #798089;
   --text-light-3: #5e5e72;
   --text-light-4: #a0a0a0;
-  --text-dark-green: #f7f405;
-  --text-orange: #f7f405;
-  --text-yellow: #f7f405;
+  --text-dark-green: #ffff00;
+  --text-orange: #ffff00;
+  --text-yellow: #ffff00;
 
   /* Fonts */
   --primary-font: Quicksand;
@@ -62,10 +62,10 @@ body {
 
 /* Custom CSS */
 .learn-more-btn {
-  background-color: var(--bg-black);
+  background-color: var(--text-yellow);
   font-size: 18px;
   font-weight: 700;
-  color: #ffcd39 !important;
+  color: #0003FF !important;
   padding: 12px 29px !important;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
@@ -74,7 +74,7 @@ body {
   transition: 0.7s;
 }
 .learn-more-btn:hover {
-  background-color: #0820fd;
+  background-color: #e9e90c;
 }
 .btn-extra-header {
   color: var(--text-dark-gray) !important;
@@ -87,7 +87,7 @@ body {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  background: rgba(239, 239, 255, 0.877);
+  background: rgb(20 20 128 / 78%);
 }
 .header_wrapper .navbar-brand img {
   max-width: 210px;
@@ -665,8 +665,8 @@ label {
 }
 
 input[type="submit"] {
-  background-color: var(--bg-black);
-  color: #ffbf00;
+  background-color: var(--text-yellow);
+  color: #0003FF;
   padding: 12px 20px;
   margin-left: 15px;
   border: none;
@@ -683,7 +683,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #0820fd;
+  background-color: #e9e90c;
 }
 
 .container1 {
@@ -737,11 +737,11 @@ input[type="submit"]:hover {
 .clients h2 {
   font-family: var(--secondary-font);
   font-weight: 500;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   line-height: 1.25;
   margin-bottom: 40px;
-  color: var(--text-light-2);
+  color: var(--bg-light-white);
 }
 .client-slider-section .item {
   display: flex;
