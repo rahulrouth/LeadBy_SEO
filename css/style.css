@@ -10,11 +10,11 @@
 }
 :root {
   /* Background Color */
-  --bg-black: #556fff;
+  --bg-black: #00296b;
   --bg-white: #fff;
   --bg-light-white: #fcfcfc;
   --bg-light-2: rgb(20 20 128 / 78%);
-  --bg-dark-green: #ffff00;
+  --bg-dark-green: #fdc500;
   --bg-features-1: #fff6d6;
   --bg-features-2: #ebdcf9;
   --bg-features-3: #ddf5fc;
@@ -29,9 +29,9 @@
   --text-light-2: #798089;
   --text-light-3: #5e5e72;
   --text-light-4: #a0a0a0;
-  --text-dark-green: #ffff00;
-  --text-orange: #ffff00;
-  --text-yellow: #ffff00;
+  --text-dark-green: #fdc500;
+  --text-orange: #ffd500;
+  --text-yellow: #fdc500;
 
   /* Fonts */
   --primary-font: Quicksand;
@@ -62,10 +62,10 @@ body {
 
 /* Custom CSS */
 .learn-more-btn {
-  background-color: var(--text-yellow);
+  background-color: var(--text-orange);
   font-size: 18px;
   font-weight: 700;
-  color: #0003FF !important;
+  color: #003f88 !important;
   padding: 12px 29px !important;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
@@ -192,14 +192,14 @@ body {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
   font-weight: 400;
   font-size: 25px;
-  color: #d2717e;
+  color: var(--text-yellow);
   line-height: 1.1em;
 }
 .kp-card-note{
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
   font-size: 10px;
   line-height: normal;
-  color: #4c5b7c;
+  color: var(--text-yellow);
 }
 .kp-card-currency{
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
@@ -213,12 +213,12 @@ body {
   font-weight: 300;
   font-size: 60px;
   line-height: 1.03em;
-  color: #d2717e!important;
+  color: var(--text-yellow) !important;
 }
 .kp-card-frequency{
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
   font-weight: 300;
-  color: #4c5b7c!important;
+  color: var(--text-yellow) !important;
   letter-spacing: 2px;
   display: block;
   margin-top: -10px;
@@ -688,7 +688,7 @@ input[type="submit"]:hover {
 
 .container1 {
   border-radius: 5px;
-  background-color: rgb(1 67 255 / 56%);
+  background-color: #00296b;
   padding: 20px;
   font-weight: 500;
  
@@ -1153,7 +1153,7 @@ input[type="submit"]:hover {
 
 /* 11 Footer */
 .footer_wrapper {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 25px;
   background: url(../images/bg_footer.png) no-repeat;
   background-attachment: fixed;
