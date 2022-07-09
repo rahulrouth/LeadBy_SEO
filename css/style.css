@@ -13,7 +13,7 @@
   --bg-black: #00296b;
   --bg-white: #fff;
   --bg-light-white: #fcfcfc;
-  --bg-light-2: rgb(20 20 128 / 78%);
+  --bg-light-2: rgb(20 20 128 / 85%);
   --bg-dark-green: #fdc500;
   --bg-features-1: #fff6d6;
   --bg-features-2: #ebdcf9;
@@ -74,7 +74,11 @@ body {
   transition: 0.7s;
 }
 .learn-more-btn:hover {
-  background-color: #e9e90c;
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+  color: #003f88 !important;
+  background-color: var(--text-orange);
 }
 .btn-extra-header {
   color: var(--text-dark-gray) !important;
@@ -87,7 +91,7 @@ body {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  background: rgb(20 20 128 / 78%);
+  background: rgb(20 20 128 / 88%);
 }
 .header_wrapper .navbar-brand img {
   max-width: 210px;
@@ -156,6 +160,9 @@ body {
 
 }
 
+.container {
+  margin-top: 3rem;
+}
 /* package */
 
 .kp-wrap{
@@ -678,21 +685,26 @@ input[type="submit"] {
   width: 20%;
   margin: 15px;
   font-family: var(--primary-font);
+  transition: transform .5s;
   
   
 }
 
+
 input[type="submit"]:hover {
-  background-color: #e9e90c;
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+  color: #0003FF;
 }
 
 .container1 {
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #00296b;
   padding: 20px;
   font-weight: 500;
  
-  font-family: "Quicksand", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
 }
 
 .col-25 {
@@ -767,7 +779,7 @@ input[type="submit"]:hover {
   border-radius: 10px;
   margin-bottom: 25px;
   max-width: 44px;
-  color: var(--text-white);
+  color: var(--bg-black);
   background-color: var(--bg-dark-green);
 }
 .about_wrapper .about_title {
@@ -1158,7 +1170,7 @@ input[type="submit"]:hover {
   background: url(../images/bg_footer.png) no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(16 32 56 / 97%);;
+  background-color: #003f88;
   /* color: var(--text-white); */
 }
 .footer_wrapper .footer_logo img {
@@ -1318,7 +1330,7 @@ input[type="submit"]:hover {
     padding: 100px 0 100px;
   }
   .banner_wrapper .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .banner_wrapper .learn-more-btn-section {
     justify-content: center;
