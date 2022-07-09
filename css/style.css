@@ -7,6 +7,8 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  /* background: url(../images/bg.png) no-repeat;
+  background-attachment: fixed; */
 }
 :root {
   /* Background Color */
@@ -160,9 +162,9 @@ body {
 
 }
 
-.container {
+/* .container {
   margin-top: 3rem;
-}
+} */
 /* package */
 
 .kp-wrap{
@@ -582,7 +584,7 @@ div.desc {
   display: flex;
   width: 100%;
   padding: 100px 0 105px;
-  background: url(../images/bg.png) no-repeat;
+  background: url(../images/bg.png) no-repeat; 
   background-attachment: fixed;
   background-size: cover;
   justify-content: center;
@@ -673,7 +675,7 @@ label {
 
 input[type="submit"] {
   background-color: var(--text-yellow);
-  color: #0003FF;
+  color: #003f88;
   padding: 12px 20px;
   margin-left: 15px;
   border: none;
@@ -743,13 +745,13 @@ input[type="submit"]:hover {
 
 /* 4 Client */
 .clients {
-  padding: 50px 0 10px;
+  padding: 30px 0 10px;
   background: var(--bg-light-2);
 }
 .clients h2 {
   font-family: var(--secondary-font);
-  font-weight: 500;
-  font-size: 35px;
+  font-weight: 700;
+  font-size: 40px;
   text-align: center;
   line-height: 1.25;
   margin-bottom: 40px;
@@ -770,6 +772,8 @@ input[type="submit"]:hover {
 /* 5 About */
 .about_wrapper {
   padding: 100px 0 0;
+  background: url(../images/bg.png) no-repeat; 
+  background-attachment: fixed;
 }
 .about_wrapper .about_number {
   font-family: var(--secondary-font);
@@ -825,7 +829,10 @@ input[type="submit"]:hover {
   padding: 100px 0 80px;
   background: var(--bg-light-2);
 }
-
+.features_wrapper  {
+  background: url(../images/bg.png) no-repeat; 
+  background-attachment: fixed;
+}
 .features_wrapper a {
   text-decoration: none;
 }
@@ -965,7 +972,7 @@ input[type="submit"]:hover {
 
 .free_trial {
   background: var(--bg-light-2);
-  padding: 80px 0;
+  padding: 20px 0;
   margin-top: 100px;
 }
 .free_trial .free_title {
