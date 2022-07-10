@@ -583,7 +583,7 @@ div.desc {
 .banner_wrapper {
   display: flex;
   width: 100%;
-  padding: 100px 0 105px;
+  padding: 100px 0 80px;
   background: url(../images/bg.png) no-repeat; 
   background-attachment: fixed;
   background-size: cover;
@@ -796,10 +796,11 @@ input[type="submit"]:hover {
   color: var(--text-black);
 }
 .about_wrapper .about_text {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 1.7;
+  line-height: 1.5;
   max-width: 700px;
+  font-family: var(--primary-font);
   color: var(--text-light-2);
 }
 .about_wrapper .innovate {
